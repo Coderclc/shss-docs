@@ -1,0 +1,18 @@
+{
+  "name": "shss-docs",
+  "version": "1.0.0",
+  "author": "zone",
+  "license": "ISC",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.31",
+    "vue": "^3.2.45"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.15"
+  }
+}
