@@ -18,7 +18,7 @@ hero:
       link: https://gdyd.cai988.com:89/admin
     - theme: alt
       text: 文档
-      link: /web-portals/front-end-manual
+      link: /web-portals/introduce
 
 features:
   - title: 中国移动

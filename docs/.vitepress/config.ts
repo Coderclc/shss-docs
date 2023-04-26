@@ -35,7 +35,7 @@ export default defineConfig({
 
 function nav() {
   return [
-    { text: '文档', link: '/web-portals/front-end-manual', activeMatch: '/web-portals/' },
+    { text: '文档', link: '/web-portals/introduce', activeMatch: '/web-portals/' },
     {
       text: version,
       items: [
@@ -58,17 +58,17 @@ function sidebarGuide() {
       text: '门户网站',
       collapsible: true,
       items: [
-        { text: '前端手册', link: '/web-portals/front-end-manual' },
-        { text: '后端手册', link: '/web-portals/backend-manual' }
+        { text: '介绍', link: '/web-portals/introduce' },
+        { text: '快速了解', link: '/web-portals/quick-understanding' },
+        { text: '环境部署', link: '/web-portals/environment-deployment' },
+        { text: '项目介绍', link: '/web-portals/project-introduction' },
+        { text: '功能组件', link: '/web-portals/functional-components' }
       ]
     },
     {
       text: '后台管理',
       collapsible: true,
-      items: [
-        { text: '前端手册', link: '/backstage-management/front-end-manual' },
-        { text: '后端手册', link: '/backstage-management/backend-manual' }
-      ]
+      items: [{ text: '前端手册', link: '/backstage-management/front-end-manual' }]
     }
   ]
 }
